@@ -1,0 +1,55 @@
+.top-tweets{
+	background-color: rgb(255,255,255);
+	box-shadow: 15px 15px rgba(255,255,255,.5);
+	border-radius: 15px;
+	min-height: 100px;
+	overflow: auto;
+	margin-left: 4%;
+	margin-right: 14%;
+	margin-top: 5%;
+	padding: 1vw;
+}
+
+.top-tweets{
+	text-align: left;
+}
+
+.tab-links{
+	border: 1px solid black;
+	background-color: #FDFFF5;
+	padding: 10px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.tab-links:hover{
+	background-color: #EEEEEE;
+	box-shadow: 0px 5px rgba(35,35,35,.5);
+	transform: scale(1.1);
+}
+
+.tab-links.active{
+	background-color: #FFD700;
+	box-shadow: 0px 5px rgba(35,35,35,.5);
+	transform: scale(1.1);
+}
+
+.tab-content{
+	display: none;
+	margin: 0;
+	border-collapse: collapse;
+}
+
+.tab-content th,td{
+	border: 1px solid black;
+	padding: 2px;
+}
+
+.tab-content tr:nth-child(n){
+	background-color: #EEEEEE;
+}
+
+.tab-content tr:nth-child(2n){
+	background-color: #FDFFF5;
+}

@@ -1,0 +1,11 @@
+.topics-directory{
+	border: 1px solid black;
+	background-color: #FFD700;
+	padding: 10px;
+	margin-right: 15px;
+	border-radius: 5px;
+}
+
+.topics-directory:hover{
+	transform: scale(1.1);
+}

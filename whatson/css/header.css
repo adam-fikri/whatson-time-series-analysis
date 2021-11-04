@@ -1,0 +1,105 @@
+body{
+	background-color: rgb(30,182,182);
+	padding: 0;
+	margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+#header{
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+#bird-fly{
+	position: relative;
+	width: 100%;
+	height: 130px;
+	overflow: hidden;
+}
+
+.bird{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background: url("../images/leaves.png");
+	background-size: 1000px 100px;
+}
+
+#logo{
+	background-repeat: no-repeat;
+	background-image: url(../images/Logo-wht.png);
+	width: 100%;
+	height: 106px;
+}
+
+#bird-fly .bird.bird1{
+	animation: animate 20s linear infinite;
+	z-index: 5;
+	opacity: 1;
+	animation-delay: 0;
+	bottom: 0;
+}
+
+#bird-fly .bird.bird2{
+	animation: animate 20s linear infinite;
+	z-index: 4;
+	opacity: 0.5;
+	animation-delay: -2s;
+	bottom: -5px;
+	left: 100px;
+}
+
+/*#bird-fly .bird.bird1:hover{
+	animation-play-state: paused;
+}*/
+
+#menu{
+	position: relative;
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(11, auto);
+	border-top: 1px solid rgba(255,255,255,.5);
+	border-bottom: 1px solid rgba(255,255,255,.5);
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+.page{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.page:hover{
+	border-left: 1px solid rgba(255,255,255,.5);
+	border-right: 1px solid rgba(255,255,255,.5);
+}
+
+.loading{
+	color: magenta;
+	font-size: 20px;
+	animation: vanish 1s infinite;
+}
+
+#submitLoad{
+	animation: 2s rotate infinite;
+	display: none;
+}
+
+#submitDate{
+	background-color: rgb(61, 236, 207);
+	color: white;
+	border: 2px solid rgba(243,255,246,.5);
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}

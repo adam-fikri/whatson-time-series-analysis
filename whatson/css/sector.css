@@ -1,0 +1,31 @@
+#wave-effect{
+	margin-top: 300px;
+}
+
+.grid{
+	display: grid;
+	grid-gap: 10%;
+	grid-template-columns: repeat(3, auto);
+	grid-template-rows: repeat(3, auto);
+	align-items: center;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.grid-items{
+	background-color: rgb(255,255,255);
+	box-shadow: 15px 15px rgba(255,255,255,0.5);
+	border-radius: 15px;
+	display: inline-block;
+	padding: 1vw;
+	min-height: 200px;
+}
+
+#show-monthly{
+	background-color: rgb(61, 236, 207);
+	color: white;
+	border: 2px solid rgba(243,255,246,.5);
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}

@@ -1,0 +1,31 @@
+#bird-fly{
+	display: none;
+}
+
+.greetings{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	background-color: #241444;
+}
+.greetings p{
+	font-size: 40px;
+	font-family: consolas;
+	font-weight: bold;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: 5s type steps(30);
+	color: white;
+	padding-bottom: 50px;
+}
+
+.spec{
+	font-size: 80px;
+	font-family: forte;
+}
+
+#acc-name{
+	position: absolute;
+	left: 0;
+	color: white;
+}
